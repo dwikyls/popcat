@@ -1,0 +1,26 @@
+.popcat {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.popcat1 {
+  background: url(popcat1.jpg) no-repeat center center fixed;
+  background-size: auto 100%;
+}
+
+.popcat2 {
+  background: url(popcat2.jpg) no-repeat center center fixed;
+  background-size: auto 100%;
+}
+
+.no_selection {
+  user-select: none; /* standard syntax */
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
+}
